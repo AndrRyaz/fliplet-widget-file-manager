@@ -889,6 +889,7 @@ function sortItems(items) {
 
 // Adds single item to DOM
 function renderItem(item, isFolder, insertIndex) {
+  debugger;
   var template = isFolder ? templates.folder(item) : templates.file(item);
 
   if (insertIndex >= 0) {
