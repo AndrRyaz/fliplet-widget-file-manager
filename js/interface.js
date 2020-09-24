@@ -12,7 +12,6 @@ var templates = {
   organizations: template('organizations'),
   apps: template('apps')
 };
-var $appList;
 var $searchType = $('.search-type');
 var $searchTerm = $('.search-term');
 var $searchTermClearBtn = $('#search-term-clear');
@@ -22,7 +21,6 @@ var goToFolderAlertTimeout = 5000;
 var $spinner = $('.spinner-holder');
 var $newBtn = $('.new-btn');
 var $selectAllCheckbox =  $('.file-cell.selectable');
-var $completedItems = 0;
 
 var appList;
 // This should contain either app/org/folder of current folder
